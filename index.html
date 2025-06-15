@@ -43,16 +43,17 @@
         }
 
         h2 {
-            font-size: 2.5rem;
-            position: relative;
-            padding-bottom: 15px;
+            position: relative; 
+            display: inline-block; 
+            padding-bottom: 10px; 
         }
 
-        h2:after {
+        h2::after {
             content: '';
             position: absolute;
             bottom: 0;
-            left: 0;
+            left: 50%; /* Смещаем начало полоски на 50% от ширины h2 */
+            transform: translateX(-50%); /* Сдвигаем назад на половину своей ширины */
             width: 80px;
             height: 4px;
             background: linear-gradient(90deg, var(--electric-blue), var(--neon-aqua));
