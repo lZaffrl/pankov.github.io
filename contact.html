@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты компании ZAFFR - производителя выставочных стендов. Телефон, адрес, форма связи. Создаем эксклюзивные стенды под ключ с 2011 года.">
+    <meta name="keywords" content="контакты ZAFFR, заказать выставочный стенд, производитель стендов, контакты для выставок">
+    <meta name="author" content="ZAFFR">
+    <title>Контакты | ZAFFR - Эксклюзивные выставочные стенды под ключ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ZAFFR",
+      "url": "https://zaffr.ru",
+      "logo": "https://zaffr.ru/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+7 (915) 490-73-04",
+        "contactType": "Customer service",
+        "email": "zaffr@mail.ru",
+        "availableLanguage": ["Russian"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Партийный переулок, 1к57с1",
+        "addressLocality": "Москва",
+        "postalCode": "111397",
+        "addressCountry": "RU"
+      }
+    }
+    </script>
+    <style>
+        /* Основные стили из главной страницы */
+        :root {
+            --deep-blue: #0a192f;
+            --space-black: #020c1b;
+            --electric-blue: #00b4d8;
+            --neon-aqua: #64ffda;
+            --pure-white: #ffffff;
+            --light-text: #e6f1ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--light-text);
+            background-color: var(--space-black);
+            line-height: 1.6;
+            overflow-x: hidden;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: var(--pure-white);
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        h2 {
+            position: relative; 
+            display: inline-block; 
+            padding-bottom: 10px; 
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%; 
+            transform: translateX(-50%); 
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--electric-blue), var(--neon-aqua));
+            border-radius: 2px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--electric-blue), var(--neon-aqua));
+            color: var(--space-black);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 180, 216, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--pure-white);
+            border: 2px solid var(--neon-aqua);
+        }
+
+        .btn-secondary:hover {
+            background: var(--neon-aqua);
+            color: var(--space-black);
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .section-header h2 {
+            display: inline-block;
+        }
+
+        .section-header h2:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(2, 12, 27, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--pure-white);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo span {
+            color: var(--neon-aqua);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--neon-aqua);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--neon-aqua);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: var(--pure-white);
+            font-size: 1.8rem;
+        }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            padding: 120px 0 20px;
+            background: var(--deep-blue);
+            font-size: 1rem;
+        }
+
+        .breadcrumbs a {
+            color: var(--neon-aqua);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumbs a:hover {
+            color: var(--pure-white);
+        }
+
+        .breadcrumbs span {
+            color: var(--light-text);
+            margin: 0 10px;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .contact-info {
+            background: rgba(10, 25, 47, 0.6);
+            border-radius: 10px;
+            padding: 40px;
+            border: 1px solid rgba(100, 255, 218, 0.1);
+        }
+
+        .contact-item {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(100, 255, 218, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+            color: var(--neon-aqua);
+            font-size: 1.5rem;
+        }
+
+        .contact-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--neon-aqua);
+        }
+
+        .contact-details p, 
+        .contact-details a {
+            color: var(--light-text);
+            font-size: 1.2rem;
+            text-decoration: none;
+            display: block;
+        }
+
+        .contact-details a:hover {
+            color: var(--neon-aqua);
+        }
+
+        .social-contact {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: var(--space-black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--neon-aqua);
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid var(--neon-aqua);
+        }
+
+        .social-icon:hover {
+            background: var(--neon-aqua);
+            color: var(--space-black);
+            transform: translateY(-5px);
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--deep-blue);
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .form-group {
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 16px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(100, 255, 218, 0.2);
+            color: var(--pure-white);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--neon-aqua);
+            background: rgba(100, 255, 218, 0.1);
+        }
+
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        /* Map Section */
+        .map-container {
+            margin-top: 70px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            height: 500px;
+            border: 1px solid rgba(100, 255, 218, 0.2);
+            position: relative;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .map-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(2, 12, 27, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 350px;
+        }
+
+        .map-overlay h3 {
+            margin-bottom: 10px;
+            color: var(--neon-aqua);
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: 100px;
+        }
+
+        .faq-item {
+            background: rgba(10, 25, 47, 0.6);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(100, 255, 218, 0.1);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--neon-aqua);
+        }
+
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .faq-answer {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(100, 255, 218, 0.2);
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-toggle {
+            color: var(--neon-aqua);
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(45deg);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--space-black);
+            padding: 80px 0 40px;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--pure-white);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .footer-slogan {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            color: var(--light-text);
+            font-weight: 400;
+        }
+
+        .footer-contacts h4 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+
+        .contact-item {
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .contact-icon {
+            width: 30px;
+            color: var(--neon-aqua);
+            font-size: 1.3rem;
+            margin-right: 15px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+            color: var(--light-text);
+            font-size: 1.1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            section {
+                padding: 80px 0;
+            }
+            
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .map-container {
+                height: 400px;
+            }
+            
+            .breadcrumbs {
+                padding: 100px 0 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 70px 0;
+            }
+            
+            .contact-info,
+            .contact-form-container {
+                padding: 30px;
+            }
+            
+            .map-container {
+                height: 350px;
+            }
+            
+            .contact-form {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .contact-item {
+                flex-direction: column;
+            }
+            
+            .contact-icon {
+                margin-bottom: 15px;
+            }
+            
+            .map-container {
+                height: 300px;
+            }
+            
+            .map-overlay {
+                position: relative;
+                bottom: auto;
+                left: auto;
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">Z<span>AFFR</span></a>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/portfolio.html">Портфолио</a></li>
+                    <li><a href="/services.html">Услуги</a></li>
+                    <li><a href="/about.html">О нас</a></li>
+                    <li><a href="/contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="/">Главная</a> <span>></span> <span>Контакты</span>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contacts">
+        <div class="container">
+            <div class="section-header">
+                <h1>Контакты</h1>
+                <p>Свяжитесь с нами для создания эксклюзивного выставочного стенда</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон</h3>
+                            <a href="tel:+79154907304">+7 (915) 490-73-04</a>
+                            <p>Пн-Пт: 9:00-18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Электронная почта</h3>
+                            <a href="mailto:zaffr@mail.ru">zaffr@mail.ru</a>
+                            <p>Ответ в течение 1 рабочего дня</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Адрес</h3>
+                            <p>Москва, Партийный переулок, 1к57с1</p>
+                            <p>Работаем по всей России</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Мессенджеры</h3>
+                            <p>Пишите в удобном для вас формате</p>
+                            <div class="social-contact">
+                                <a href="https://t.me/IZAFFRI" class="social-icon" target="_blank" aria-label="Telegram">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="https://wa.me/79154907304" class="social-icon" target="_blank" aria-label="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="viber://chat?number=79154907304" class="social-icon" aria-label="Viber">
+                                    <i class="fab fa-viber"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Часы работы</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Офис и производство</h3>
+                            <p>Понедельник-Пятница: 9:00-18:00</p>
+                            <p>Суббота-Воскресенье: выходной</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Монтаж стендов</h3>
+                            <p>Работаем 24/7 в соответствии с графиком выставок</p>
+                            <p>Доступны в любой день недели</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Консультации</h3>
+                            <p>Предварительная запись по телефону</p>
+                            <p>Онлайн-консультации в удобное время</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a1d7d8c8e1d3b7e3e4f5c6d7e8f9a0b&amp;source=constructor" frameborder="0" title="Карта проезда к офису ZAFFR"></iframe>
+                <div class="map-overlay">
+                    <h3>Наш офис в Москве</h3>
+                    <p>Партийный переулок, 1к57с1</p>
+                    <p>Вход со двора, 3 этаж</p>
+                    <p>Парковка для клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Остались вопросы?</h2>
+                <p class="cta-subtitle">Отправьте запрос и наш специалист свяжется с вами в течение 30 минут</p>
+                
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/mvojnzol" method="POST">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Компания</label>
+                        <input type="text" id="company" name="company" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group" style="grid-column: span 2;">
+                        <label for="message">Ваш вопрос или проект</label>
+                        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group" style="grid-column: span 2; text-align: center;">
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </div>
+                </form>
+                
+                <div class="contact-methods">
+                    <a href="tel:+79154907304" class="phone-number">+7 (915) 490-73-04</a>
+                    <div class="social-icons">
+                        <a href="https://t.me/IZAFFRI" class="social-icon" target="_blank" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://wa.me/79154907304" class="social-icon" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Часто задаваемые вопросы</h2>
+            </div>
+            
+            <div class="faq-section">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Как быстро вы отвечаете на запросы?
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы отвечаем на все запросы в течение 1 рабочего дня. Если вам нужен срочный ответ, пожалуйста, звоните по телефону +7 (915) 490-73-04 - мы доступны с 9:00 до 18:00 по московскому времени.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Работаете ли вы с регионами?
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, мы реализуем проекты по всей России. Имеем опыт организации стендов в Санкт-Петербурге, Казани, Екатеринбурге, Новосибирске и других городах. Берем на себя все логистические вопросы.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Можно ли приехать к вам в офис без предварительной записи?
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Для вашего удобства мы рекомендуем предварительно записаться по телефону. Это гарантирует, что нужные специалисты будут доступны для консультации. Однако мы всегда постараемся помочь, если вы приедете без записи.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Какие документы требуются для начала работы?
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Для начала сотрудничества нам потребуется заполненный бриф и техническое задание. После согласования концепции подписываем договор. Все этапы сопровождаются полным пакетом документов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">ZAFFR</div>
+                    <p class="footer-slogan">Стиль на прокачку. 13 лет опыта.</p>
+                </div>
+                <div class="footer-contacts">
+                    <h4>Контакты</h4>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <a href="tel:+79154907304" class="phone-number">+7 (915) 490-73-04</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <a href="mailto:zaffr@mail.ru" style="color: white; text-decoration: none;">zaffr@mail.ru</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span>Москва, Партийный переулок, 1к57с1</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="/" style="color: var(--light-text); text-decoration: none; display: block; margin-bottom: 12px;">Главная</a></li>
+                        <li><a href="/portfolio.html" style="color: var(--light-text); text-decoration: none; display: block; margin-bottom: 12px;">Портфолио</a></li>
+                        <li><a href="/services.html" style="color: var(--light-text); text-decoration: none; display: block; margin-bottom: 12px;">Услуги</a></li>
+                        <li><a href="/about.html" style="color: var(--light-text); text-decoration: none; display: block; margin-bottom: 12px;">О нас</a></li>
+                        <li><a href="/contacts.html" style="color: var(--light-text); text-decoration: none; display: block; margin-bottom: 12px;">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ZAFFR, 2023. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Меню навигации
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Обработка формы контактов
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(contactForm);
+                
+                fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        alert('Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.');
+                        contactForm.reset();
+                    } else {
+                        alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте еще раз.');
+                    }
+                }).catch(error => {
+                    console.error('Ошибка:', error);
+                    alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте еще раз.');
+                });
+            });
+        }
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+
+        // Плавный скролл для якорных ссылок
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
